@@ -8,15 +8,16 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.agencia_viagensfx.HelloController">
    <left>
-      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #1330B2;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="500.0" prefWidth="394.0" style="-fx-background-color: #1330B2;" BorderPane.alignment="CENTER">
          <children>
             <Text fill="WHITE" layoutX="106.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Horizontes Travel">
                <font>
                   <Font size="18.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="80.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="copyright © 2024 all rights reserved" />
-         </children></AnchorPane>
+            <Text fill="WHITE" layoutX="80.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="copyright © 2024 all rights reserved" wrappingWidth="190.517578125" />
+         </children>
+      </AnchorPane>
    </left>
    <right>
       <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #FFF;" BorderPane.alignment="CENTER">
