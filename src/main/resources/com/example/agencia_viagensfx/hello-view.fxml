@@ -23,7 +23,7 @@
       <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #FFF;" BorderPane.alignment="CENTER">
          <children>
             <Button layoutX="75.0" layoutY="226.0" mnemonicParsing="false" onAction="#switchToCadastroPessoa" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Cadastrar Pessoa" textFill="#1330b2" />
-            <Button layoutX="75.0" layoutY="276.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Cadastrar Pacote" textFill="#1330b2" />
+            <Button layoutX="75.0" layoutY="276.0" mnemonicParsing="false" onAction="#switchToPacote" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Cadastrar Pacote" textFill="#1330b2" />
             <Button layoutX="75.0" layoutY="326.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Cadastrar Destino" textFill="#1330b2" />
             <Button layoutX="75.0" layoutY="376.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Fazer Reserva" textFill="#1330b2" />
             <Button layoutX="75.0" layoutY="426.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Dados" textFill="#1330b2" />

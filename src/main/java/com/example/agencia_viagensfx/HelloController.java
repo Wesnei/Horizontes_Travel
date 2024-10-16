@@ -15,10 +15,23 @@ public class HelloController {
 
     @FXML
     protected void switchToCadastroPessoa(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("cadastroPessoa.fxml"));  // Carregue a página de Cadastro Pessoa
+        Parent root = FXMLLoader.load(getClass().getResource("cadastroPessoa.fxml"));
         Stage newStage = new Stage();
         Scene scene = new Scene(root);
+        newStage.setTitle("Horizontes Travel");
         newStage.setScene(scene);
         newStage.show();
     }
+
+    @FXML
+    protected void switchToPacote(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("PacoteTuristico.fxml"));
+        Stage newStage = new Stage();
+        Scene scene = new Scene(root);
+        newStage.setTitle("Horizontes Travel");
+        newStage.setScene(scene);
+        newStage.show();
+    }
+
+
 }
