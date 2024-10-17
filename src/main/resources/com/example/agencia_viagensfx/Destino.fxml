@@ -22,7 +22,7 @@
             <children>
                 <TextField layoutX="75.0" layoutY="284.0" minHeight="30.0" minWidth="200.0" promptText="Nome" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" />
                 <TextField layoutX="75.0" layoutY="334.0" minHeight="30.0" minWidth="200.0" promptText="Descrição" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" />
-                <TextField layoutX="75.0" layoutY="384.0" minHeight="30.0" minWidth="200.0" promptText="Descrição" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" text="ID do Pacote" />
+                <TextField layoutX="75.0" layoutY="384.0" minHeight="30.0" minWidth="200.0" promptText="ID do Pacote" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" />
                 <Text layoutX="47.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastre Um Novo Destino">
                     <font>
                         <Font size="20.0" />
