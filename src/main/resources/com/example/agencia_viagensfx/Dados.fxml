@@ -9,29 +9,29 @@
     <children>
         <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #1330B2;">
             <children>
-                <Text fill="WHITE" layoutX="98.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Horizontes Travel">
+                <Text fill="WHITE" layoutX="97.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Horizontes Travel">
                     <font>
-                        <Font size="20.0" />
+                        <Font name="Arial" size="20.0" />
                     </font>
                 </Text>
-                <Text fill="WHITE" layoutX="79.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="copyright © 2024 all rights reserved" />
+                <Text fill="WHITE" layoutX="80.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="copyright © 2024 all rights reserved" />
             </children></AnchorPane>
-        <AnchorPane layoutX="350.0" prefHeight="500.0" prefWidth="350.0">
+        <AnchorPane layoutX="350.0" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: white;">
             <children>
-                <Button layoutX="70.0" layoutY="435.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5;" text="Cadastrar" textFill="#1330b2" />
+                <Button layoutX="70.0" layoutY="427.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5;" text="Cadastrar" textFill="#1330b2" />
                 <Text layoutX="93.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dados do Sistema ">
                     <font>
                         <Font size="20.0" />
                     </font>
                 </Text>
-            <Text layoutX="98.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecione uma Operação">
+            <Text layoutX="98.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecione uma Operação">
                <font>
                   <Font size="14.0" />
                </font>
             </Text>
-            <Button layoutX="68.0" layoutY="269.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Reservas" textFill="#1330b2" />
-            <Button layoutX="68.0" layoutY="328.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Pessoas" textFill="#1330b2" />
-            <Button layoutX="67.0" layoutY="385.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Pacotes" textFill="#1330b0" />
+            <Button layoutX="70.0" layoutY="277.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Reservas" textFill="#1330b2" />
+            <Button layoutX="70.0" layoutY="327.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Pessoas" textFill="#1330b2" />
+            <Button layoutX="70.0" layoutY="377.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Pacotes" textFill="#1330b0" />
             </children>
         </AnchorPane>
     </children>
