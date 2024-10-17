@@ -8,6 +8,7 @@
 
 
 <AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.agencia_viagensfx.PacoteTuristicoController">
+<<<<<<< HEAD
     <children>
         <AnchorPane prefHeight="500.0" prefWidth="351.0" style="-fx-background-color: #1330B2;">
             <children>
@@ -34,3 +35,31 @@
         </AnchorPane>
     </children>
 </AnchorPane>
+=======
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="351.0" style="-fx-background-color: #1330B2;">
+         <children>
+            <Text fill="WHITE" layoutX="97.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Horizontes Travel">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="80.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="copyright © 2024 all rights reserved" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="349.0" prefHeight="500.0" prefWidth="351.0" style="-fx-background-color: #FFF;">
+         <children>
+            <TextField layoutX="75.0" layoutY="284.0" minHeight="30.0" minWidth="200.0" promptText="Nome" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" />
+            <TextField layoutX="75.0" layoutY="334.0" minHeight="30.0" minWidth="200.0" promptText="Preço" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" />
+            <TextField layoutX="75.0" layoutY="384.0" minHeight="30.0" minWidth="200.0" promptText="Descrição" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" />
+            <Text layoutX="47.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastre um Pacote Turístico">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button layoutX="75.0" layoutY="434.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" style="-fx-background-color: #FFF; -fx-border-radius: 5; -fx-border-color: #1330B2;" text="Cadastrar" textFill="#1330b2" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
+>>>>>>> 9ce5dcab174bd82f4e087befa83b3575481f9ec9
