@@ -22,11 +22,11 @@
          </children></AnchorPane>
       <AnchorPane layoutX="350.0" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #FFF;">
          <children>
-            <TextField layoutX="75.0" layoutY="235.0" prefHeight="30.0" prefWidth="200.0" promptText="Nome" style="-fx-background-color: black; -fx-border-radius: 5; -fx-text-inner-color: white;" />
-            <TextField layoutX="75.0" layoutY="285.0" prefHeight="30.0" prefWidth="200.0" promptText="Email" style="-fx-background-color: black; -fx-border-radius: 5; -fx-text-inner-color: white;" />
-            <TextField layoutX="75.0" layoutY="335.0" prefHeight="30.0" prefWidth="200.0" promptText="Telefone" style="-fx-background-color: black; -fx-border-radius: 5; -fx-text-inner-color: white;" />
-            <TextField layoutX="75.0" layoutY="385.0" prefHeight="30.0" prefWidth="200.0" promptText="CPF" style="-fx-background-color: black; -fx-border-radius: 5; -fx-text-inner-color: white;" />
-            <Button layoutX="70.0" layoutY="435.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5;" text="Cadastrar" textFill="#1330b2" />
+            <TextField fx:id="nomeField" layoutX="75.0" layoutY="235.0" prefHeight="30.0" prefWidth="200.0" promptText="Nome" style="-fx-background-color: black; -fx-border-radius: 5; -fx-text-inner-color: white;" />
+            <TextField fx:id="emailField" layoutX="75.0" layoutY="285.0" prefHeight="30.0" prefWidth="200.0" promptText="Email" style="-fx-background-color: black; -fx-border-radius: 5; -fx-text-inner-color: white;" />
+            <TextField fx:id="telefoneField" layoutX="75.0" layoutY="335.0" prefHeight="30.0" prefWidth="200.0" promptText="Telefone" style="-fx-background-color: black; -fx-border-radius: 5; -fx-text-inner-color: white;" />
+            <TextField fx:id="cpfField" layoutX="75.0" layoutY="385.0" prefHeight="30.0" prefWidth="200.0" promptText="CPF" style="-fx-background-color: black; -fx-border-radius: 5; -fx-text-inner-color: white;" />
+            <Button fx:id="cadastrarButton" layoutX="70.0" layoutY="435.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5;" text="Cadastrar" textFill="#1330b2" />
             <Text layoutX="41.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastre-se no Nosso Sistema">
                <font>
                   <Font size="20.0" />
