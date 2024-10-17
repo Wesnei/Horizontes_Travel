@@ -23,16 +23,16 @@
         </AnchorPane>
         <AnchorPane layoutX="349.0" prefHeight="500.0" prefWidth="351.0" style="-fx-background-color: #FFF;">
             <children>
-                <TextField layoutX="75.0" layoutY="284.0" minHeight="30.0" minWidth="200.0" promptText="Nome" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" text="Data de Reserva" />
-                <TextField layoutX="75.0" layoutY="334.0" minHeight="30.0" minWidth="200.0" promptText="Preço" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" text="ID do Pacote" />
-                <TextField layoutX="75.0" layoutY="384.0" minHeight="30.0" minWidth="200.0" promptText="Descrição" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" text="ID do Cliente" />
+                <TextField fx:id="dataReservaField" layoutX="75.0" layoutY="284.0" minHeight="30.0" minWidth="200.0" promptText="Data de Reserva" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" />
+                <TextField fx:id="pacoteIdField" layoutX="75.0" layoutY="334.0" minHeight="30.0" minWidth="200.0" promptText="ID do Pacote" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" />
+                <TextField fx:id="clienteIdField" layoutX="75.0" layoutY="384.0" minHeight="30.0" minWidth="200.0" promptText="ID do Cliente" style="-fx-background-color: BLACK; -fx-border-radius: 5; -fx-text-inner-color: WHITE;" />
                 <Text layoutX="94.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Faça Sua Reserva !">
                     <font>
                         <Font size="20.0" />
                     </font>
                 </Text>
-                <Button layoutX="195.0" layoutY="432.0" minHeight="30.0" minWidth="79.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: white; -fx-border-radius: 5; -fx-border-color: red;" text="Cancelar" textFill="RED" />
-            <Button layoutX="74.0" layoutY="432.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-color: green;" text="Confirmar" textFill="GREEN" />
+                <Button fx:id="cancelarButton" layoutX="195.0" layoutY="432.0" minHeight="30.0" minWidth="79.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: white; -fx-border-radius: 5; -fx-border-color: red;" text="Cancelar" textFill="RED" />
+            <Button fx:id="confirmarButton" layoutX="74.0" layoutY="432.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-color: green;" text="Confirmar" textFill="GREEN" />
             </children>
         </AnchorPane>
     </children>

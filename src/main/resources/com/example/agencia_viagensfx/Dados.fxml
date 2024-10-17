@@ -18,7 +18,7 @@
             </children></AnchorPane>
         <AnchorPane layoutX="350.0" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: white;">
             <children>
-                <Button layoutX="70.0" layoutY="427.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5;" text="Cadastrar" textFill="#1330b2" />
+                <Button fx:id="visualizarDestinosButton" layoutX="70.0" layoutY="427.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5;" text="Visualizar Destinos" textFill="#1330b2" />
                 <Text layoutX="93.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dados do Sistema ">
                     <font>
                         <Font size="20.0" />
@@ -29,9 +29,9 @@
                   <Font size="14.0" />
                </font>
             </Text>
-            <Button layoutX="70.0" layoutY="277.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Reservas" textFill="#1330b2" />
-            <Button layoutX="70.0" layoutY="327.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Pessoas" textFill="#1330b2" />
-            <Button layoutX="70.0" layoutY="377.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Pacotes" textFill="#1330b0" />
+            <Button fx:id="visualizarReservasButton" layoutX="70.0" layoutY="277.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Reservas" textFill="#1330b2" />
+            <Button fx:id="visualizarPessoasButton" layoutX="70.0" layoutY="327.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Pessoas" textFill="#1330b2" />
+            <Button fx:id="visualizarPacotesButton" layoutX="70.0" layoutY="377.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #1330B2; -fx-border-radius: 5px;" text="Visualizar Pacotes" textFill="#1330b0" />
             </children>
         </AnchorPane>
     </children>
